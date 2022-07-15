@@ -1,0 +1,36 @@
+Job Search Site ~ Kariyer
+Requirements:
+1- Employee
+2- Employer
+3- Position
+4- Sector
+5- Position level
+6- Department
+7- How it works(remotely, from the office, part-time ..)
+8- Education level
+9- City
+10- Employer/employee becoming a free member
+11- Employee CV creation/update
+12- Employee cover letter creation/update
+13- Posting a job
+14- İş ilanı kapama
+15- Job posting closing
+16- Add job posting to favorites
+17- View job postings
+18- View job applications 18- Download displayed job postings
+19- Charge per view/download
+
+
+Analsys:
+1- An employer cannot create more than one membership.
+2- A worker cannot create more than one membership
+3- An employer can open more than one job posting
+4- A worker can apply for more than one job posting.
+5- A worker can apply for any job posting
+6- A worker can create more than one CV/Cover letter
+7- An employer may filter out postings that do not meet the criteria
+8- An employer can view any CV that fits the criteria.
+9- An employer can download any CV that fits the criteria.
+10- A fee of X units is charged per each CV displayed.
+11- A fee of x units is charged per each CV downloaded.
+12- A worker can favorite more than one job posting
