@@ -1,12 +1,12 @@
 package com.todeb.ksensoy.jobsearchsite.model.dto;
 
-import javax.xml.crypto.Data;
+import lombok.Data;
 
-@lombok.Data
+@Data
 public class JobAdvertisement {
     private String city;
     private String district;
-    private javax.xml.crypto.Data releaseDate;
+    private Data releaseDate;
     private String sector;
     private String positionLevel;
     private String department;
