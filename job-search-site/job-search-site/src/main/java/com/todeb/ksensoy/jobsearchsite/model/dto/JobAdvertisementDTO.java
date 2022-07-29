@@ -2,11 +2,13 @@ package com.todeb.ksensoy.jobsearchsite.model.dto;
 
 import lombok.Data;
 
+import java.util.Date;
+
 @Data
-public class JobAdvertisement {
+public class JobAdvertisementDTO {
     private String city;
     private String district;
-    private Data releaseDate;
+    private Date releaseDate;
     private String sector;
     private String positionLevel;
     private String department;
@@ -16,4 +18,5 @@ public class JobAdvertisement {
     private String advertisementLanguage;
     private String jobDescription;
     private Boolean disabilityjobAdvertisement;
+
 }

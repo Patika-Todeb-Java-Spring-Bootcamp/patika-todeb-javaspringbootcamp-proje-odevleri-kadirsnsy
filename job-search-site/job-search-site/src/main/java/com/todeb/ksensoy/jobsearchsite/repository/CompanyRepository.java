@@ -8,14 +8,14 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public interface CompanyRepository extends JpaRepository<Company,Long> {
+public interface CompanyRepository  extends JpaRepository<Company, Long> {
 
-    Optional<Company> findCompanyByName(String name);
+   /* Optional<Company> findCompanyByName(String name);
     Optional<Company> findCompanyByPhone(String name);
     Optional<Company> findCompanyByTaxNumber(String name);
     List<Company> getAllByCity(String city);
     List<Company> getAllByDistrict(String city);
     List<Company> getAllByPhone(String city);
-    List<Company> getAllByCityAndDistrict(String city,String district);
+    List<Company> getAllByCityAndDistrict(String city,String district);*/
 
 }

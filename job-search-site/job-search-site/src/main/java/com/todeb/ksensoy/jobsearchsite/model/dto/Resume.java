@@ -6,7 +6,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class Resume extends Member {
+public class Resume extends Members {
     private  String gender;
     private  String nationality;
     private  Data birthday;

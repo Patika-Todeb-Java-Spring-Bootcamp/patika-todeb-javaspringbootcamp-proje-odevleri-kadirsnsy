@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-public class CompanyDTO extends Member {
+public class CompanyDTO extends Members {
     private  String taxNumber;
     private  String numberOfEmployees;
     private  String information;

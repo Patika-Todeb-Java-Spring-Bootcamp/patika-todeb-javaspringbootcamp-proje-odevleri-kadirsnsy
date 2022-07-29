@@ -3,7 +3,7 @@ package com.todeb.ksensoy.jobsearchsite.model.dto;
 import lombok.Data;
 
 @Data
-public  abstract class Member {
+public  abstract class Members {
     private  String name;
     private  String email;
     private  String phone;
